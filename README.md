@@ -79,6 +79,8 @@ Using **Postman**, a series of test scripts were written to ensure the API's fun
 | User is created and ID is stored | ✅ Passed |
 | Fetch created user and verify ID | ✅ Passed |
 
+![Image](https://github.com/user-attachments/assets/5ad5afeb-b3a8-4077-a29d-3c35dd8832d0)
+
 ## 📌 Issues and Debugging
 The test for **handling invalid input failed** because the API returned a **200 OK** response instead of the expected **400 Bad Request**. Possible causes include:
 
